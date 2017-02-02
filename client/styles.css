@@ -1,0 +1,261 @@
+html {
+  background: url("/img0.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.col-md-6 .b:hover {
+  color: #FBDCE8;
+}
+
+.col-md-6 a:hover {
+  text-decoration: none;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .4;
+  z-index: -1;
+}
+
+.row {
+  display: block;
+  height: 1500px;
+  width: 100%;
+  position: fixed;
+}
+
+.b {
+  margin: 0;
+}
+
+.b1 {
+  padding-left: 0 !important;
+}
+
+.b2 {
+  float: right;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.main-left {
+  margin-top: 48%;
+}
+
+.main-right {
+  margin-top: 48%;
+}
+
+.text-right{
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 10px;
+  z-index: 5;
+}
+
+.text-left {
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 10px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1300px) {
+  .main-left {
+    margin-top: 120%;
+  }
+
+  .main-right {
+    margin-top: 120%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (orientation: landscape) {
+  .main-left {
+    margin-top: 70%;
+  }
+
+  .main-right {
+    margin-top: 70%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-left {
+    margin-top: 45%;
+  }
+
+  .main-right {
+    margin-top: 45%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    background: url("/img4.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .main-left {
+    margin-top: 120%;
+  }
+
+  .main-right {
+    margin-top: 120%;
+  }
+
+  .text-right{
+    font-size: 50px;
+    letter-spacing: 10px;
+    z-index: 5;
+  }
+
+  .text-left {
+    font-size: 50px;
+    letter-spacing: 10px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    background: url("/img3.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .overlay {
+    opacity: 0;
+  }
+
+  .main-left {
+    margin-top: 340%;
+  }
+
+  .main-right {
+    margin-top: 340%;
+  }
+
+  .text-right{
+    font-size: 28px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+
+  .text-left {
+    font-size: 28px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  html {
+    background: url("/img17.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .overlay {
+    opacity: 0.3;
+  }
+
+  .main-left {
+    margin-top: 50%;
+  }
+
+  .main-right {
+    margin-top: 50%;
+  }
+
+  .text-right{
+    font-size: 28px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+
+  .text-left {
+    font-size: 28px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    background: url("/img3.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .overlay {
+    opacity: 0;
+  }
+
+  .main-left {
+    margin-top: 300%;
+  }
+
+  .main-right {
+    margin-top: 300%;
+  }
+
+  .text-right{
+    font-size: 26px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+
+  .text-left {
+    font-size: 26px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    background: url("/img3.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .overlay {
+    opacity: 0;
+  }
+
+  .main-left {
+    margin-top: 320%;
+  }
+
+  .main-right {
+    margin-top: 320%;
+  }
+
+  .text-right{
+    font-size: 22px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+
+  .text-left {
+    font-size: 22px;
+    letter-spacing: 6px;
+    z-index: 5;
+  }
+}

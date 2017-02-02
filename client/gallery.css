@@ -1,0 +1,431 @@
+html body {
+  background-color: #EDF5FA;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin-top: 65px !important;
+}
+
+.col-md-3 {
+  background-color: #F8DCE5;
+}
+
+#wrapper {
+  width: 22% !important;
+  left: .5%;
+}
+
+#wrapper a {
+  color: #000;
+}
+
+#wrapper a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#wrapper h3 {
+  margin: 5px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 8px;
+}
+
+.row {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.foot {
+  background-color: #FBDCE8;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+.footer h3 {
+  color: #000;
+  font-weight: 100;
+  letter-spacing: 5px;
+  padding-left: 8%;
+}
+
+.footer h3:hover {
+  color: #fff;
+}
+
+.footer h5 {
+  color: #000;
+  font-weight: 200;
+  letter-spacing: 3px;
+  left: 20%;
+  padding: 1%;
+}
+
+.footer h5:hover {
+  color: #fff;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.img1 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img2 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img3 {
+  height: auto;
+  width: 26.75% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img4 {
+  height: auto;
+  width: 35.48% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img5 {
+  height: auto;
+  width: 37.75% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img6 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img7 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img8 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img9 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img10 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img11 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img12 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img13 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img14 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img15 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img16 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img17 {
+  height: auto;
+  width: 50% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img18 {
+  height: auto;
+  width: 40% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+.img19 {
+  height: auto;
+  width: 60% !important;
+  position: relative;
+  padding: .3% !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .container-fluid {
+    margin-top: 50px !important;
+  }
+
+  .col-md-3 {
+    background-color: #F8DCE5;
+  }
+
+  #wrapper {
+    width: 26% !important;
+    left: .5%;
+  }
+
+  #wrapper a {
+    color: #000;
+  }
+
+  #wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #wrapper h3 {
+    margin: 5px;
+    margin-left: 0px;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 8px;
+  }
+
+  .foot {
+    background-color: #FBDCE8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+
+  .footer h3 {
+    color: #000;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-left: 3%;
+    margin-top: 15px;
+  }
+
+  .footer h5 {
+    color: #000;
+    font-weight: 200;
+    letter-spacing: 3px;
+    left: 20%;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-fluid {
+    margin-top: 35px !important;
+  }
+
+  .col-md-3 {
+    background-color: #F8DCE5;
+  }
+
+  #wrapper {
+    width: 30% !important;
+    left: .5%;
+  }
+
+  #wrapper a {
+    color: #000;
+  }
+
+  #wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #wrapper h3 {
+    margin: 5px;
+    margin-left: -5px;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 8px;
+  }
+
+  .foot {
+    background-color: #FBDCE8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+
+  .footer h3 {
+    color: #000;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-left: 3%;
+    margin-top: 15px;
+  }
+
+  .footer h5 {
+    color: #000;
+    font-weight: 200;
+    letter-spacing: 3px;
+    left: 10%;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-fluid {
+    margin-top: 20px !important;
+  }
+
+  .col-md-3 {
+    background-color: #F8DCE5;
+  }
+
+  #wrapper {
+    width: 32% !important;
+    left: .5%;
+  }
+
+  #wrapper a {
+    color: #000;
+  }
+
+  #wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #wrapper h3 {
+    margin: 3px;
+    margin-left: -8px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 6px;
+  }
+
+  .foot {
+    background-color: #FBDCE8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+
+  .footer h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 3%;
+    margin-top: 10px;
+  }
+
+  .footer h5 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    left: 2%;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container-fluid {
+    margin-top: 16px !important;
+  }
+
+  .col-md-3 {
+    background-color: #F8DCE5;
+  }
+
+  #wrapper {
+    width: 32% !important;
+    left: .5%;
+  }
+
+  #wrapper a {
+    color: #000;
+  }
+
+  #wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #wrapper h3 {
+    margin: 3px;
+    margin-left: -8px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+
+  .foot {
+    background-color: #FBDCE8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+
+  .footer h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 3%;
+    margin-top: 10px;
+  }
+
+  .footer h5 {
+    color: #000;
+    font-size: 8px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    left: 2%;
+    padding: 1%;
+  }
+}

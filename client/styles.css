@@ -24,9 +24,9 @@ html {
 
 .row {
   display: block;
-  height: 1500px;
+  height: 100%;
   width: 100%;
-  position: fixed;
+  position: absolute;;
 }
 
 .b {

@@ -16,4 +16,3 @@ window.sr = ScrollReveal({ reset: true });
   sr.reveal('.row6', { duration: 2000 });
   sr.reveal('.row7', { duration: 2000 });
   sr.reveal('.row8', { duration: 2000 });
-  sr.reveal('.foot', { duration: 2000 });
